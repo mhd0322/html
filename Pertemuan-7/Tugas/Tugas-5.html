@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 5 Membuat Biodata Diri</title>
+</head>
+<body>
+    <form action="BiodataDiri.php" method="post">
+        <fieldset style="color: red" >
+            <legend><h3><b>Biodata Diri</b></h3></legend>
+            <p>
+                <label style="color: black;">Name :</label>
+                <input type="text" name="Name" placeholder="Your Full Name...">
+            </p>
+            <p>
+                <label style="color: black;">Date of birth :</label>
+                <input type="date" name="Date" placeholder="Date of birth...">
+            </p>
+            <p>
+                <label style="color: black;">Age :</label>
+                <input type="number" name="Age" min="10" max="110">
+            </p>
+            <p>
+                <label style="color: black;">Religion :</label>
+                <select name="Religion">
+                    <option value="Islam">Islam</option>
+                    <option value="Protestant">Protestant</option>
+                    <option value="Catholic">Catholic</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Confucian">Confucian</option>
+                </select>
+            </p>
+            <p>
+                <label style="color: black;">Email :</label>
+                <input type="email" name="Email" placeholder="Your Email">
+            </p>
+            <p>
+        <input type="submit" name="submit" value="Login" />
+      </p>
+        </fieldset>
+</body>
+</html>

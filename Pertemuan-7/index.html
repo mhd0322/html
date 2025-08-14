@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Membuat Form Login HTML</title>
+  </head>
+  <body>
+    <form action="login.php" method="post">
+      <p>
+        <label>Username:</label>
+        <input type="text" name="Username" placeholder="Username..." />
+      </p>
+      <p>
+        <label>Password:</label>
+        <input type="password" name="Password" placeholder="Password..." />
+      </p>
+      <p>
+        <label
+          ><input type="checkbox" name="Remember" value="Remember" /> Remember
+          Me</label
+        >
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Login" />
+      </p>
+    </form>
+    <hr />
+    <form action="contact.php" method="post">
+      <fieldset>
+        <legend>Contact</legend>
+        <p>
+          <label>Name:</label>
+          <input type="text" name="Name" placeholder="Your Name..." />
+        </p>
+        <p>
+          <label>Subject:</label>
+          <input type="text" name="Subject" placeholder="Subject..." />
+        </p>
+        <p>
+          <label>Email:</label>
+          <input type="email" name="Email" placeholder="Your Email" />
+        </p>
+        <p>
+          <input type="submit" name="submit" value="Send" />
+        </p>
+      </fieldset>
+    </form>
+    <hr>
+    <form action="contact.php" method="post">
+        <fieldset>
+            <legend>Registration</legend>
+            <p>
+                <label>Name :</label>
+                <input type="text" name="Name" placeholder="Full Name...">
+            </p>
+            <p>
+                <label>Username :</label>
+                <input type="text" name="Username" placeholder="Username...">
+            </p>
+            <p>
+                <label>Email :</label>
+                <input type="email" name="Email" placeholder="Your Email">
+            </p>
+            <p>
+                <label>Password :</label>
+                <input type="password" name="Password" placeholder="Your Password...">
+            </p>
+            <p>
+                <label>Gender :</label>
+                <label><input type="radio" name="Gender" value="Man">Man</label>
+                <label><input type="radio" name="Gender" value="Woman">Woman</label>
+            </p>
+            <p>
+                <label>Religion :</label>
+                <select name="Religion">
+                    <option value="Islam">Islam</option>
+                    <option value="Christian">Christian</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                </select>
+            </p>
+            <p>
+                <label Biografi :></label>
+                <textarea name="Biografi"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="Submit" value="List">
+            </p>
+            <hr>
+            <form action="Contact.php" method="post">
+                <fieldset>
+                    <legend>Form</legend>
+                    <p>
+                        <label>Web Address :</label>
+                        <input type="url" name="name" placeholder="Enter Web URL...">
+                    </p>
+                    <p>
+                        <label>Date Of Birth :l</label>
+                        <input type="date" name="Date">
+                    </p>
+                    <p>
+                        <label>Age :</label>
+                        <input type="number" min="10" max="90" name="Age">
+                    </p>
+                    <p>
+                        <input type="submit" name="Submit" value="Send">
+                    </p>
+                </fieldset>
+            </form>
+        </fieldset>
+    </form>
+  </body>
+</html>
